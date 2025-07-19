@@ -1,0 +1,248 @@
+html {
+	padding: 0px;
+	color: #7f5539; 
+}
+body {
+	background-color: #f4e5d8;
+	margin: 60px 250px;
+	
+}
+
+.container{
+	padding: 50px;
+	margin: 50px;
+	background-color: white;
+	border-radius: 15px;
+	
+}
+
+.Banner{	
+	display: block;
+	margin: 0 auto;
+	border-radius: 15px;
+	width: 100%;
+	height: auto;
+}
+
+.Heading-1 {
+	font-family: young serif;
+	font-size: 52px;
+	color: #14213d;
+}
+
+p, li {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 16px;
+	
+}
+
+.Prep-heading {
+	color: #5a108f;
+	font-size: 26px;
+	
+}
+
+
+.List{
+	background-color: #fbfaff;
+	padding: 17px;
+	margin-left: 0px;
+	border-radius: 15px;
+}
+
+.Sublist {
+	
+	margin-left: 20px;
+}
+
+.List ul {
+	list-style-position: inside;
+	padding-left: 40px;
+}
+
+li{
+	padding: 5px;
+	
+}
+
+.Ingredients {
+	list-style-position: inside;
+	margin-left: 20px;	
+
+}
+
+.bold-numbers li::marker {
+	font-weight: bold;
+	
+}
+
+.Heading-2 {
+	font-size: 30px;
+	
+}
+
+hr {
+	background-color: 1b4332;
+	width: 95%;
+}
+
+.Padding-dwn {
+	padding-bottom: 10px;
+	margin-left: 20px;
+}
+
+.col {
+	width: 40%;	
+	padding: 5px;
+	display: inline-block;
+	margin-left: 5px;
+}
+
+/*Media Queries*/
+
+@media all and (max-width: 1024px){
+	
+	body{
+		margin: 0px;
+	}
+	
+	.container {
+		padding: 0px;
+		margin: 0px;
+	}
+	
+	.Heading-1 {
+		font-size: 45px;
+	}
+	
+	h1, p, li {
+		padding: 0px 25px;
+	}
+	p, li,	span {
+		font-size: 20px;
+		
+	}
+	
+	.List{
+		padding: 0px 30px;
+	}
+	
+}
+@media all and (max-width: 786px){
+	
+	body{
+		margin: 0px;
+	}
+	
+	.container {
+		padding: 0px;
+		margin: 0px;
+	}
+	
+	.Heading-1 {
+		font-size: 45px;
+	}
+	
+	h1, p, li {
+		padding: 0px 25px;
+	}
+	p, li,	span {
+		font-size: 20px;
+		
+	}
+	
+	.List{
+		padding: 0px 30px;
+	}
+	
+}
+
+@media all and (max-width: 600px){
+	
+	body{
+		margin: 0px;
+	}
+	
+	.container {
+		padding: 0px;
+		margin: 0px;
+	}
+	
+	.Heading-1 {
+		font-size: 38px;
+	}
+	
+	h1, p, li {
+		padding: 0px 25px;
+	}
+	p, li,	span {
+		font-size: 15px;
+		
+	}
+	
+	.List{
+		padding: 0px 30px;
+	}
+	
+}
+
+
+@media all and (max-width: 480px){
+	body{
+		margin: 0px;
+	}
+	
+	.container {
+		padding: 0px;
+		margin: 0px;
+	}
+	
+	.Heading-1 {
+		font-size: 30px;
+	}
+	
+	h1, p, li {
+		padding: 0px 15px;
+	}
+	p, li,	span {
+		font-size: 15px;
+		
+	}
+	
+	.List{
+		padding: 0px 20px;
+	}
+	
+}
+
+@media all and (max-width: 300px){
+	
+	body{
+		margin: 0px;
+	}
+	
+	.container {
+		padding: 0px;
+		margin: 0px;
+	}
+	
+	.Heading-1 {
+		font-size: 20px;
+	}
+	
+	h1, p, li {
+		padding: 0px 15px;
+	}
+	
+	p, li, span {
+		font-size: 10px;
+		
+	}
+	
+	.List{
+		padding: 0px 30px;
+	}
+	
+}
+
+/*Media Queries*/
